@@ -1,0 +1,177 @@
+body {
+	font-family: roboto, sans-serif;
+	margin: -8px;
+}
+
+.header, .hero-section, .mid-section, .quote-section, .footer {
+	padding: 0 200px;
+}
+
+.header {
+	background-color: #1F2937;
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1F2937;
+	color: white;
+	padding: 30px 0;
+}
+
+.logo {
+    max-width: 80px;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-section {
+	background-color: #1F2937;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 100px 0;
+	justify-content: space-between;
+}
+
+.hero-text {
+	max-width: 1000px;
+}
+
+.hero-text * {
+	margin-bottom: 10px;
+}
+
+.hero-title {
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+.signup-button {
+	background-color: #3882F6;
+	border-radius: 7px;
+	color: white;
+	font-weight: bold;
+	padding: 5px 20px;
+	border: 0;
+}
+
+.hero-image {
+	max-width: 600px;
+	min-width: 200px;
+	background-color: #6A727C;
+	text-align: center;
+	align-self: center;
+}
+
+.hero-image > img {
+	width: 100%;
+	height: auto;
+}
+
+.mid-section {
+	padding: 50px 200px;
+}
+
+.mid-section .title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 800;
+	color: #1F2937;
+	margin-bottom: 50px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+	text-align: center;
+	max-width: 300px;
+}
+
+.card div {
+	font-size: 20px;
+}
+
+.card img {
+	border: 2px solid #3882F6;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.quote-section {
+	background-color: #E5E7EB;
+	padding: 150px 200px;
+}
+
+.quote-section .quote {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 200;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote-section .author {
+	text-align: right;
+	font-weight: 600;
+}
+
+.signup-body {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #3882F6;
+	padding: 50px 0;
+	margin: 100px 200px;
+	border-radius: 7px;
+	color: white;
+}
+
+.signup-text > div:first-child {
+	font-weight: 800;
+}
+
+.signup-body > * .signup-button {
+	border: 2px solid white;
+}
+
+.footer {
+	display: flex;
+	background-color: #1F2937;
+	color: white;
+	min-height: 50px;
+	flex: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: lightblue;
+}
